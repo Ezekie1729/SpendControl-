@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SpendControl</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>SpendControl</h2>
+
+  <input type="number" id="amount" placeholder="Enter amount">
+  <button onclick="addIncome()">Add Income</button>
+  <button onclick="addExpense()">Add Expense</button>
+
+  <h3 id="balance">Balance: 0</h3>
+
+  <script src="app.js"></script>
+</body>
+</html>
